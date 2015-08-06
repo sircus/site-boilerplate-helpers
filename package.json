@@ -1,0 +1,29 @@
+{
+  "name": "site-boilerplate-helpers",
+  "version": "0.0.1",
+  "description": "A plugin for handlebars helpers of site-boilerplate",
+  "keywords": [
+    "handlebars",
+    "helpers"
+  ],
+  "homepage": "https://github.com/sircus/site-boilerplate-helpers",
+  "bugs": {
+    "url": "https://github.com/sircus/site-boilerplate-helpers/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ungki, H",
+    "email": "ungki.h@gmail.com",
+    "url": "https://github.com/ungki"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sircus/site-boilerplate-helpers.git"
+  },
+  "dependencies": {
+    "handlebars-layouts": "^3.1.0",
+    "marked": "^0.3.5",
+    "highlight.js": "^8.4.0"
+  }
+}
