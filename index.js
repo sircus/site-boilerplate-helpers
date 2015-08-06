@@ -113,5 +113,3 @@ module.exports.register = function (handlebars, options) {
   });
 
 };
-
-//module.exports = lib(__dirname);
