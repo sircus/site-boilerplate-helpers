@@ -1,6 +1,6 @@
 {
   "name": "site-boilerplate-helpers",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A plugin for handlebars helpers of site-boilerplate",
   "keywords": [
     "handlebars",
