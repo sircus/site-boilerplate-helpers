@@ -1,6 +1,6 @@
 /**
- * Handlebars helper for site-boilerplate
- * Created and maintained by Ungki.h <https://github.com/ungki> and blivesta <https://github.com/blivesta>
+ * Handlebars helpers for site-boilerplate
+ * Created and maintained by blivesta <https://github.com/blivesta> and ungki <https://github.com/ungki>
  *
  * Licensed under the MIT License (MIT).
  */
