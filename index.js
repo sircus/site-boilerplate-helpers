@@ -1,6 +1,5 @@
 /**
- * Handlebars helpers for site-boilerplate
- * Created and maintained by blivesta <https://github.com/blivesta> and ungki <https://github.com/ungki>
+ * Handlebars helpers for site-boilerplate by blivesta <https://github.com/blivesta> and ungki <https://github.com/ungki>
  *
  * Licensed under the MIT License (MIT).
  */
@@ -39,8 +38,12 @@ module.exports.register = function (handlebars, options) {
   marked.options = {
     renderer: new marked.Renderer(),
     langPrefix: 'language-',
-    highlight: function (code) {
-      return hljs.highlightAuto(code).value;
+    highlight: function (code, lang) {
+      if(lang) {
+        return hljs.highlight(lang, code).value;
+      } else {
+        return hljs.highlightAuto(code).value;
+      }
     }
   };
 
