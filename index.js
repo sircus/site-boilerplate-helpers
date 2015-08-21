@@ -102,8 +102,8 @@ module.exports.register = function (handlebars, options) {
      * @return {[type]}
      *
      * @example
-     *  - {{#isnot A "b"}} {{else}}(Optional) {{/is}}
-     *  - {{#isnot A "b" or="C"}} {{else}}(Optional) {{/is}}
+     *  - {{#isnot A "b"}} {{else}}(Optional) {{/isnot}}
+     *  - {{#isnot A "b" or="C"}} {{else}}(Optional) {{/isnot}}
      */
     isnot: function(context, compare, options) {
       if(context == compare || context == options.hash.or) {
